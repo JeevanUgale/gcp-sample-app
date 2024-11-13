@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: sample-app
-          image: gcr.io/qwiklabs-gcp-04-28e6c2f7e804/sample-app:V1
+          image: gcr.io/infogain-kubernetes1/sample-app:V1
           ports:
             - containerPort: 8080
