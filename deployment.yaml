@@ -17,3 +17,6 @@ spec:
           image: gcr.io/infogain-kubernetes1/sample-app:V1
           ports:
             - containerPort: 8080
+          env:
+            - name: BUILD_NUMBER
+              value: "${BUILD_NUMBER}"
